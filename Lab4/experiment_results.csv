@@ -1,0 +1,55 @@
+dataset,activation,init,optimizer,accuracy,val_loss
+Cifar-10,relu,xavier,sgd,73.53,0.7426850535687367
+Dogs vs Cats,relu,xavier,sgd,87.5,0.30203166585179825
+Cifar-10,relu,xavier,adam,77.6,0.6382985060002394
+Dogs vs Cats,relu,xavier,adam,87.7,0.2928665810370747
+Cifar-10,relu,xavier,rmsprop,80.74,0.5713711716946522
+Dogs vs Cats,relu,xavier,rmsprop,86.14,0.3035894802099542
+Cifar-10,relu,kaiming,sgd,70.41,0.8383434718581522
+Dogs vs Cats,relu,kaiming,sgd,87.68,0.3175764161197445
+Cifar-10,relu,kaiming,adam,78.0,0.6294639419977832
+Dogs vs Cats,relu,kaiming,adam,88.64,0.25902764348289636
+Cifar-10,relu,kaiming,rmsprop,80.14,0.5628053124543209
+Dogs vs Cats,relu,kaiming,rmsprop,86.48,0.31277776632127885
+Cifar-10,relu,random,sgd,70.15,0.8539827496382841
+Dogs vs Cats,relu,random,sgd,83.46,0.3798495698955995
+Cifar-10,relu,random,adam,80.31,0.5568825021670882
+Dogs vs Cats,relu,random,adam,88.54,0.2574979999585997
+Cifar-10,relu,random,rmsprop,78.89,0.5874180055347977
+Dogs vs Cats,relu,random,rmsprop,88.38,0.27093205119990094
+Cifar-10,tanh,xavier,sgd,68.28,0.9150073239757757
+Dogs vs Cats,tanh,xavier,sgd,81.72,0.4083667838875252
+Cifar-10,tanh,xavier,adam,75.96,0.6906112610914146
+Dogs vs Cats,tanh,xavier,adam,82.22,0.39777672290802
+Cifar-10,tanh,xavier,rmsprop,73.76,0.752194993814845
+Dogs vs Cats,tanh,xavier,rmsprop,77.94,0.4587648876860172
+Cifar-10,tanh,kaiming,sgd,66.63,0.9483093771205586
+Dogs vs Cats,tanh,kaiming,sgd,83.96,0.36648567605622207
+Cifar-10,tanh,kaiming,adam,79.79,0.5924957916615116
+Dogs vs Cats,tanh,kaiming,adam,84.04,0.3720463372861283
+Cifar-10,tanh,kaiming,rmsprop,79.11,0.6027483270046817
+Dogs vs Cats,tanh,kaiming,rmsprop,80.02,0.42211630638641645
+Cifar-10,tanh,random,sgd,62.72,1.0411384868773685
+Dogs vs Cats,tanh,random,sgd,75.68,0.5039370429666736
+Cifar-10,tanh,random,adam,77.98,0.6263341387366034
+Dogs vs Cats,tanh,random,adam,77.88,0.4618686335750773
+Cifar-10,tanh,random,rmsprop,74.67,0.7407407593575253
+Dogs vs Cats,tanh,random,rmsprop,74.56,0.500600503969796
+Cifar-10,leaky_relu,xavier,sgd,74.58,0.7363421212715707
+Dogs vs Cats,leaky_relu,xavier,sgd,88.22,0.2953499244360984
+Cifar-10,leaky_relu,xavier,adam,82.09,0.5131503870342947
+Dogs vs Cats,leaky_relu,xavier,adam,86.92,0.29507125216194346
+Cifar-10,leaky_relu,xavier,rmsprop,81.47,0.5268289006439744
+Dogs vs Cats,leaky_relu,xavier,rmsprop,85.56,0.3323688565552989
+Cifar-10,leaky_relu,kaiming,sgd,72.14,0.8129852740627945
+Dogs vs Cats,leaky_relu,kaiming,sgd,86.7,0.32041322788860227
+Cifar-10,leaky_relu,kaiming,adam,83.09,0.4981139664817008
+Dogs vs Cats,leaky_relu,kaiming,adam,89.74,0.23495195994648752
+Cifar-10,leaky_relu,kaiming,rmsprop,82.22,0.510472053365343
+Dogs vs Cats,leaky_relu,kaiming,rmsprop,87.18,0.28879828600189356
+Cifar-10,leaky_relu,random,sgd,70.41,0.8348562476361633
+Dogs vs Cats,leaky_relu,random,sgd,81.76,0.4058048193213306
+Cifar-10,leaky_relu,random,adam,79.85,0.5774154558682897
+Dogs vs Cats,leaky_relu,random,adam,86.6,0.3024426743954043
+Cifar-10,leaky_relu,random,rmsprop,84.03,0.4632575475865868
+Dogs vs Cats,leaky_relu,random,rmsprop,88.4,0.27600973108901256
