@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EN → ES Translator (Seq2Seq)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>EN → ES Translator</h1>
+        <p class="subtitle">Baseline vs Bahdanau vs Luong</p>
+
+        <form class="card" method="POST" action="/predict">
+            <label for="sentence">Enter an English sentence</label>
+            <textarea id="sentence" name="sentence"
+                placeholder="Type here...">{{ request.form.get('sentence', '') }}</textarea>
+            <button type="submit">Translate</button>
+
+            {% if error %}
+            <div class="error">{{ error }}</div>
+            {% endif %}
+        </form>
+
+        {% if result %}
+        <div class="results card">
+            <h2>Results</h2>
+
+            <div class="row">
+                <div class="label">EN</div>
+                <div class="value">{{ result["EN"] }}</div>
+            </div>
+
+            <div class="row">
+                <div class="label">Baseline</div>
+                <div class="value">{{ result["Baseline"] }}</div>
+            </div>
+
+            <div class="row">
+                <div class="label">Bahdanau</div>
+                <div class="value">{{ result["Bahdanau"] }}</div>
+            </div>
+
+            <div class="row">
+                <div class="label">Luong</div>
+                <div class="value">{{ result["Luong"] }}</div>
+            </div>
+
+            <p class="hint">
+                API: POST <code>/api/predict</code> with JSON <code>{"sentence":"..."}</code>
+            </p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
