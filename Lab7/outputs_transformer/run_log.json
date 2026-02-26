@@ -1,0 +1,152 @@
+{
+  "epoch_1": {
+    "run_id": "20260222_150351",
+    "epoch": 1,
+    "train_loss": 4.816319375991822,
+    "val_loss": 3.8747838735580444,
+    "epoch_time_sec": 35.10357308387756,
+    "best_val_loss_so_far": 3.8747838735580444,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:04:26"
+  },
+  "epoch_2": {
+    "run_id": "20260222_150351",
+    "epoch": 2,
+    "train_loss": 3.8440402851104736,
+    "val_loss": 3.4123421609401703,
+    "epoch_time_sec": 22.45589780807495,
+    "best_val_loss_so_far": 3.4123421609401703,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:04:48"
+  },
+  "epoch_3": {
+    "run_id": "20260222_150351",
+    "epoch": 3,
+    "train_loss": 3.3934183082580565,
+    "val_loss": 3.1145192086696625,
+    "epoch_time_sec": 22.20100688934326,
+    "best_val_loss_so_far": 3.1145192086696625,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:05:11"
+  },
+  "epoch_4": {
+    "run_id": "20260222_150351",
+    "epoch": 4,
+    "train_loss": 3.0631548404693603,
+    "val_loss": 2.875821366906166,
+    "epoch_time_sec": 21.58275008201599,
+    "best_val_loss_so_far": 2.875821366906166,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:05:32"
+  },
+  "epoch_5": {
+    "run_id": "20260222_150351",
+    "epoch": 5,
+    "train_loss": 2.7699710807800293,
+    "val_loss": 2.7272233963012695,
+    "epoch_time_sec": 23.875025272369385,
+    "best_val_loss_so_far": 2.7272233963012695,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:05:56"
+  },
+  "epoch_6": {
+    "run_id": "20260222_150351",
+    "epoch": 6,
+    "train_loss": 2.52241766166687,
+    "val_loss": 2.56241711974144,
+    "epoch_time_sec": 23.273303985595703,
+    "best_val_loss_so_far": 2.56241711974144,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:06:20"
+  },
+  "epoch_7": {
+    "run_id": "20260222_150351",
+    "epoch": 7,
+    "train_loss": 2.281593711853027,
+    "val_loss": 2.4652559012174606,
+    "epoch_time_sec": 22.177613019943237,
+    "best_val_loss_so_far": 2.4652559012174606,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:06:42"
+  },
+  "epoch_8": {
+    "run_id": "20260222_150351",
+    "epoch": 8,
+    "train_loss": 2.0779319429397582,
+    "val_loss": 2.379681259393692,
+    "epoch_time_sec": 22.881367206573486,
+    "best_val_loss_so_far": 2.379681259393692,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:07:05"
+  },
+  "epoch_9": {
+    "run_id": "20260222_150351",
+    "epoch": 9,
+    "train_loss": 1.880689673423767,
+    "val_loss": 2.3217738419771194,
+    "epoch_time_sec": 22.591897010803223,
+    "best_val_loss_so_far": 2.3217738419771194,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:07:28"
+  },
+  "epoch_10": {
+    "run_id": "20260222_150351",
+    "epoch": 10,
+    "train_loss": 1.6950143966674804,
+    "val_loss": 2.309127688407898,
+    "epoch_time_sec": 19.848937034606934,
+    "best_val_loss_so_far": 2.309127688407898,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:07:48"
+  },
+  "epoch_11": {
+    "run_id": "20260222_150351",
+    "epoch": 11,
+    "train_loss": 1.5266955919265748,
+    "val_loss": 2.2763317674398422,
+    "epoch_time_sec": 19.545804023742676,
+    "best_val_loss_so_far": 2.2763317674398422,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:08:07"
+  },
+  "epoch_12": {
+    "run_id": "20260222_150351",
+    "epoch": 12,
+    "train_loss": 1.3634663381576537,
+    "val_loss": 2.232975460588932,
+    "epoch_time_sec": 19.237909078598022,
+    "best_val_loss_so_far": 2.232975460588932,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:08:27"
+  },
+  "epoch_13": {
+    "run_id": "20260222_150351",
+    "epoch": 13,
+    "train_loss": 1.218733766555786,
+    "val_loss": 2.2022312581539154,
+    "epoch_time_sec": 19.2797429561615,
+    "best_val_loss_so_far": 2.2022312581539154,
+    "saved_best": true,
+    "timestamp": "2026-02-22 15:08:46"
+  },
+  "epoch_14": {
+    "run_id": "20260222_150351",
+    "epoch": 14,
+    "train_loss": 1.0801127605438232,
+    "val_loss": 2.2222392857074738,
+    "epoch_time_sec": 19.62220525741577,
+    "best_val_loss_so_far": 2.2022312581539154,
+    "saved_best": false,
+    "timestamp": "2026-02-22 15:09:06"
+  },
+  "epoch_15": {
+    "run_id": "20260222_150351",
+    "epoch": 15,
+    "train_loss": 0.9622958707809448,
+    "val_loss": 2.237465977668762,
+    "epoch_time_sec": 19.117365837097168,
+    "best_val_loss_so_far": 2.2022312581539154,
+    "saved_best": false,
+    "timestamp": "2026-02-22 15:09:25"
+  }
+}
